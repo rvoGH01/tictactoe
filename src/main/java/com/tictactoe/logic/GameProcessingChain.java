@@ -9,7 +9,6 @@ public class GameProcessingChain extends AbstractGameChain{
         return new Class<?>[] {
                 ValidateGameMoveCmd.class,
                 UpdateGameStateCmd.class,
-                //ChangeGamePlayerCmd.class,
                 CheckIfDBShouldBeUpdatedCmd.class
 
         };
